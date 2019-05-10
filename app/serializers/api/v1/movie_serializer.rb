@@ -1,4 +1,4 @@
-Api::V1::MovieSerializer
+class Api::V1::MovieSerializer
  include FastJsonapi::ObjectSerializer
  attributes :id, :title, :description, :episode_number, :serie_id
  

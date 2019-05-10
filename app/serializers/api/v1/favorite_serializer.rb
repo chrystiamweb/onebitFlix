@@ -20,4 +20,4 @@ class Api::V1::FavoriteSerializer
   attribute :thumbnail_url do |object|
    "/thumbnails/#{object.favoritable.thumbnail_key}"
   end
- end
+end

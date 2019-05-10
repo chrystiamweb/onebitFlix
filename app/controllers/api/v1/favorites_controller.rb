@@ -1,5 +1,6 @@
 class Api::V1::FavoritesController < ApplicationController
-  Default
+  before_action :set_favorite, only: :destroy
+  skip_before_action :verify_authenticity_token
 
   def index
     @favorites = current_user.favorites.all

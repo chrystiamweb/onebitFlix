@@ -21,13 +21,14 @@ class Api::V1::WatchableSerializer
   end
   
   attribute :featured_thumbnail_url do |object|
-   if object[ :featured_thumbnail_key ].present?
+   if object[:featured_thumbnail_key].present?
     "/thumbnails/#{object.featured_thumbnail_key}"
    end
   end
   
   attribute :video_url do |object|
-   if object[ :video_key ].present?
+   if object[:video_key].present?
     "/videos/#{object.video_key}"
    end
- end
+  end
+end
