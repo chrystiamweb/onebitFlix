@@ -18,7 +18,7 @@
  const featuredMovie = {
                          id: 1,
                          title: ' Criando uma API completa com RubyOn Rails ',
-                         description: "Saber como criar e consumirAPI 's é fundamental para qualquer programador, então nessa pequenasérie nós vamos ver o que é essencial para criar uma usando RoR.",
+                         description: "Saber como criar e consumirAPI 's é fundamental para qualquer programador, então nessa pequena série nós vamos ver o que é essencial para criar uma usando RoR.",
                          featured_thumbnail_url:'https://onebitcode.com/wp-content/uploads/2018/05/bg-example.png'
 }
  
@@ -34,17 +34,17 @@
        ]
      },{ 
       name: "VueJS", movies: [
-       {id: '1', thumb_url:'https://onebitcode.com/wp-content/uploads/2018/05/capa-v-rails-admin-1.png' },
+       {id: '1', thumb_url:'https://onebitcode.com/wp-content/uploads/2018/05/capa-v-rails-admin-1.png'},
        {id: '2', thumb_url:'https://onebitcode.com/wp-content/uploads/2018/05/capa-v-rails-admin-1.png'},
        {id: '3', thumb_url:'https://onebitcode.com/wp-content/uploads/2018/05/capa-v-rails-admin-1.png'},
-       {id: '4', thumb_url:'https://onebitcode.com/wp-content/uploads/2018/05/capa-v-rails-admin-1.png' },
+       {id: '4', thumb_url:'https://onebitcode.com/wp-content/uploads/2018/05/capa-v-rails-admin-1.png'},
        {id: '5', thumb_url:'https://onebitcode.com/wp-content/uploads/2018/05/capa-v-rails-admin-1.png'},
        {id: '6', thumb_url:'https://onebitcode.com/wp-content/uploads/2018/05/capa-v-rails-admin-1.png'}
        ]
      },{
        name: "Chatbots" , movies: [
-         {id: '1', thumb_url:'https://onebitcode.com/wp-content/uploads/2018/05/capa-v-rails-admin-1.png' },
-         {id: '2', thumb_url:'https://onebitcode.com/wp-content/uploads/2018/05/capa-v-rails-admin-1.png' },
+         {id: '1', thumb_url:'https://onebitcode.com/wp-content/uploads/2018/05/capa-v-rails-admin-1.png'},
+         {id: '2', thumb_url:'https://onebitcode.com/wp-content/uploads/2018/05/capa-v-rails-admin-1.png'},
          {id: '3', thumb_url:'https://onebitcode.com/wp-content/uploads/2018/05/capa-v-rails-admin-1.png'},
          {id: '4', thumb_url:'https://onebitcode.com/wp-content/uploads/2018/05/capa-v-rails-admin-1.png'},
          {id: '5', thumb_url:'https://onebitcode.com/wp-content/uploads/2018/05/capa-v-rails-admin-1.png'},
