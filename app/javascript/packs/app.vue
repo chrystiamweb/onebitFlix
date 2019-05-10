@@ -1,19 +1,25 @@
 <template>
  <v-app>
-  <h4 class="white--text">Header Component</h4>
+  <Header/>
   <v-content>
-   <h4 class="white--text">Main Component</h4>
+   <router-view></router-view>
   </v-content>
-  <h4 class="white--text">Footer Component</h4>
+  <Footer/>
  </v-app>
 </template>
  
 <script>
+ import Header from './components/shared/header.vue';
+ import Footer from './components/shared/footer.vue';
+ 
  export default {
   data () {
    return {
- 
-   }
+  }
+ },
+  components: {
+   'Footer': Footer,
+   'Header': Header
   }
  }
 </script>
